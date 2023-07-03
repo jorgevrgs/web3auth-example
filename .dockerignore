@@ -1,0 +1,10 @@
+.git
+node_modules
+src
+.env
+Dockerfile
+.dockerignore
+index.html
+tsconfig*.json
+vite.config.ts
+

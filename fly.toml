@@ -1,0 +1,15 @@
+# fly.toml app configuration file generated for spring-wildflower-7224 on 2023-07-01T09:58:27-05:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "spring-wildflower-7224"
+primary_region = "bog"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]

@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/fly/(.*)",
+      "destination": "https://spring-wildflower-7224.fly.dev/api/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
