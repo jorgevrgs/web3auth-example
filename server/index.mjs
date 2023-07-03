@@ -23,7 +23,7 @@ const app = async (fastify, opts) => {
           "kty": "RSA",
           "n": process.env.RSA_MODULUS,
           "e": "AQAB",
-          "kid": process.env.RSA_KID,
+          "kid": process.env.RSA_KEY_ID,
           "alg": "RS256",
           "use": "sig"
         }
